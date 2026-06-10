@@ -1,0 +1,27 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "Jest Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanTudora/jest-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/StefanTudora/jest-test/issues"
+  },
+  "homepage": "https://github.com/StefanTudora/jest-test#readme",
+  "devDependencies": {
+    "eslint": "^10.4.1",
+    "jest": "^30.4.2",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}
