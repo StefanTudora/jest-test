@@ -37,4 +37,20 @@ function caeserCipher(string, idx) {
     return string.split('').map(char => converter(char)).join('');
 }
 
-export { capitalize, reverseString, calculator, caeserCipher };
+
+function analyzeArray(array) {
+    function createResult(avarage, minim, maxim, length) {
+        return {
+            avarage: avarage,
+            minim: minim,
+            maxim: maxim,
+            length: length,
+        }
+    }
+    return array === undefined ? undefined : createResult(array.reduce((sum, num) => sum + num, 0) / array.length,
+        Math.min(...array),
+        Math.max(...array),
+        array.length);
+}
+
+export { capitalize, reverseString, calculator, caeserCipher, analyzeArray };
